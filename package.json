@@ -18,6 +18,9 @@
       "test": "make test"
     }
   , "dependencies": {
+        "gaia-filter": "0.1.0"
+      , "tea-extend": "0.1.0"
+      , "tea-properties": "0.1.0"
     }
   , "devDependencies": {
         "chai": "*"

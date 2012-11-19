@@ -5,11 +5,19 @@
   , "description": "Hash tables for javascript."
   , "license": "MIT"
   , "keywords": [
+        "objects"
+      , "arrays"
+      , "utility"
     ]
   , "main": "lib/hash.js"
   , "scripts": [
         "lib/hash.js"
+      , "lib/comparators.js"
     ]
-  , "dependencies": {}
+  , "dependencies": {
+        "qualiancy/gaia-filter": "0.1.0"
+      , "qualiancy/tea-extend": "0.1.0"
+      , "qualiancy/tea-properties": "0.1.0"
+    }
   , "development": {}
 }
