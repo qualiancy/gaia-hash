@@ -17,19 +17,4 @@ global.should = global.chai.should();
  */
 
 global.hash = require('../..');
-
-/*!
- * Helper to load internals for cov unit tests
- */
-
-function req (name) {
-  return process.env.hash_COV
-    ? require('../../lib-cov/hash/' + name)
-    : require('../../lib/hash/' + name);
-}
-
-/*!
- * Load unexposed modules for unit tests
- */
-
-global.__hash = {};
+global.data = require('../fixtures/countries');

@@ -1,6 +1,6 @@
 
 TESTS = test/*.js
-REPORTER = spec
+REPORTER = dot
 
 #
 # Tests
@@ -18,7 +18,7 @@ test-node:
 test-browser: build
 	@printf "\n  ==> [Phantom.Js]"
 	@./node_modules/.bin/mocha-phantomjs \
-		--R ${REPORTER} \
+		-R ${REPORTER} \
 		./test/browser/index.html
 
 test-cov: lib-cov
