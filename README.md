@@ -274,6 +274,7 @@ console.log(h2.get('hello')); // "WORLD"
 * **@param** _{Object}_ context to apply as `this` to the iterator. Defaults to current hash.
 * **@return** _{Mixed}_  result
 
+```js
 h.set('one', 1);
 h.set('two', 2);
 
