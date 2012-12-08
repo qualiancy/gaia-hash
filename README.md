@@ -286,7 +286,7 @@ console.log(sum); // 3
 ```
 
 
-# .mapReduce(mapFn, reduceFn)
+### .mapReduce(mapFn, reduceFn)
 
 * **@param** _{Function}_ map function
 * **@param** _{Function}_ reduce function

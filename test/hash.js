@@ -418,7 +418,7 @@ describe('.sortBy()', function () {
       else h.sortBy('population');
 
       h.index('Pitcairn Islands').should.equal(0);
-      h.at(0).should.equal(h.get('Pitcairn Islands'));
+      h.at(0).should.deep.equal(h.get('Pitcairn Islands'));
     }
   }
 
