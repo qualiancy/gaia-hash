@@ -64,6 +64,10 @@ describe('.set(key, value)', function () {
     h.should.have.property('_data')
       .with.property('hello', 'universe');
   });
+
+  it('should be able to set js object helpers', function () {
+    var h = hash();
+  });
 });
 
 describe('.get(key)', function () {
@@ -88,6 +92,12 @@ describe('.has(key)', function () {
     h.has('hello').should.be.true;
     h.del('hello');
     h.has('hello').should.be.false;
+  });
+
+  it('should return true if a key has value of null', function () {
+    var h = hash();
+    h.set('hello', null);
+    h.has('hello').should.be.true;
   });
 
   it('should not include js object helpers', function () {
