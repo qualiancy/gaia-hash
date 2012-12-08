@@ -228,6 +228,7 @@ in memory.
 
 ```js
 h.clean();
+```
 
 
 ### .each(iterator, [context])
@@ -436,6 +437,7 @@ Comparators:
 - `'asc'`: value ascending
 - `'desc'`: value descending
 - _{Function}_: custom function to receive the value at path
+
 
 
 ## License
