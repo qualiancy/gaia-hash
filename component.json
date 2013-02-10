@@ -16,7 +16,7 @@
     ]
   , "dependencies": {
         "qualiancy/gaia-filter": "0.1.0"
-      , "qualiancy/tea-extend": "0.1.0"
+      , "qualiancy/tea-extend": "0.2.0"
       , "qualiancy/tea-properties": "0.1.0"
     }
   , "development": {}
